@@ -1,6 +1,6 @@
 {
   "name": "yb-license-editor",
-  "version": "1.2.2",
+  "version": "1.3.1",
   "description": "Yuanben license editor",
   "author": "Lency",
   "license": "MIT",
@@ -27,7 +27,7 @@
     "gulp-template": "^3.1.0",
     "gulp-uglify": "^2.1.2",
     "gulp-util": "^3.0.7",
-    "node-sass": "^3.10.0",
+    "node-sass": "^4.5.3",
     "rollup-plugin-babel": "^2.7.1",
     "stream-series": "^0.1.1",
     "yargs": "^3.32.0"

@@ -457,6 +457,7 @@
         '<div class="yb-license-picker">' +
             '<div class="yb-picker-modal">' +
                 '<div class="yb-title">' +
+                    '<div class="tb-title-name">原本认证</div>'+
                     '<div class="yb-close">×</div>' +
                 '</div>' +
                 '<div class="yb-content">' +
@@ -469,7 +470,6 @@
                                     '<input type="radio" name="license-type" value="cc" />' +
                                     '知识共享许可协议' +
                                 '</label>' +
-                                '<div class="yb-triangle"></div>' +
                             '</div>' +
                             '<div class="option cm">' +
                                 '<div class="icon"></div>' +
@@ -477,7 +477,6 @@
                                     '<input type="radio" name="license-type" value="cm" />' +
                                     '商业许可协议' +
                                 '</label>' +
-                                '<div class="yb-triangle"></div>' +
                             '</div>' +
                         '</div>' +
                     '</div>' +
@@ -485,44 +484,44 @@
                         '<div class="cc-adaptation license-item">' +
                             '<div class="description">2. 是否允许你的作品被改编:</div>' +
                             '<div class="question n3">' +
-                                '<label>' +
-                                    '<input type="radio" name="cc-adaptation" value="y"/>' +
-                                    '是' +
-                                '</label>' +
-                                '<label>' +
-                                    '<input type="radio" name="cc-adaptation" value="n"/>' +
-                                    '否' +
-                                '</label>' +
-                                '<label>' +
-                                    '<input type="radio" name="cc-adaptation" value="sa"/>' +
-                                    '是，只要他人以相同方式共享' +
-                                '</label>' +
+                                '<div class="radio-box">'+
+                                    '<input type="radio" class="radio-input" name="cc-adaptation" value="y"/>' +
+                                    '<div class="radio-label">是</div>'+
+                                '</div>'+
+                                '<div class="radio-box">'+
+                                    '<input type="radio" class="radio-input" name="cc-adaptation" value="n"/>' +
+                                    '<div class="radio-label">否</div>'+
+                                '</div>'+
+                                '<div class="radio-box">'+
+                                    '<input type="radio" class="radio-input" name="cc-adaptation" value="sa"/>' +
+                                    '<div class="radio-label">是，只要他人以相同方式共享</div>'+
+                                '</div>'+
                             '</div>' +
                         '</div>' +
                         '<div class="cc-commercial license-item">' +
                             '<div class="description">3. 是否允许商业使用:</div>' +
                             '<div class="question n2">' +
-                                '<label>' +
-                                    '<input type="radio" name="cc-commercial" value="y"/>' +
-                                    '是' +
-                                '</label>' +
-                                '<label>' +
-                                    '<input type="radio" name="cc-commercial" value="n"/>' +
-                                    '否' +
-                                '</label>' +
+                                '<div class="radio-box">'+
+                                    '<input type="radio" class="radio-input" name="cc-commercial" value="y"/>' +
+                                    '<div class="radio-label">是</div>'+
+                                '</div>'+
+                                '<div class="radio-box">'+
+                                    '<input type="radio" class="radio-input" name="cc-commercial" value="n"/>' +
+                                    '<div class="radio-label">否</div>'+
+                                '</div>'+
                             '</div>' +
                         '</div>' +
                         '<div class="cm-adaptation license-item">' +
                             '<div class="description">2. 是否允许你的作品被改编:</div>' +
                             '<div class="question n2">' +
-                                '<label>' +
-                                    '<input type="radio" name="cm-adaptation" value="y"/>' +
-                                    '是' +
-                                '</label>' +
-                                '<label>' +
-                                    '<input type="radio" name="cm-adaptation" value="n"/>' +
-                                    '否' +
-                                '</label>' +
+                                '<div class="radio-box">'+
+                                    '<input type="radio" class="radio-input" name="cc-adaptation" value="y"/>' +
+                                    '<div class="radio-label">是</div>'+
+                                '</div>'+
+                                '<div class="radio-box">'+
+                                    '<input type="radio" class="radio-input" name="cc-adaptation" value="n"/>' +
+                                    '<div class="radio-label">否</div>'+
+                                '</div>'+
                             '</div>' +
                         '</div>' +
                         '<div class="cm-fee license-item">' +
@@ -588,7 +587,7 @@
                             '</div>' +
                         '</div>' +
                     '</div>' +
-                    '<div class="submit-btn"><button type="button">保存</button></div>' +
+                    '<div class="submit-box"><div class="submit-btn"><button type="button">保存</button></div></div>' +
                 '</div>' +
             '</div>' +
         '</div>';
